@@ -1,0 +1,31 @@
+.container-4{
+    background-color:whitesmoke;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin: 20px;
+
+}
+.cocktail{
+    margin-left: 20px;
+    text-align: center;
+   
+}
+.box{
+  padding: 20px;
+}
+.para-3{
+    color: black;
+}
+.cocktail li {
+    list-style-type: none;
+}
+.cocktail li img{
+   width: 300px;
+   border-radius: 10px;
+}
+@media screen and (min-width:920px){
+    .cocktail{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
